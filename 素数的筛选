@@ -1,0 +1,24 @@
+#include
+#define N 1000
+int main(int argc, char* argv[])
+{
+    int i,j,num[N];
+    for(i=0;i
+        num[i]=i+1;
+    for(i=1;i
+    {
+        if(num[i])
+        {
+            for(j=i+1;j
+            {
+                if(num[j])
+                    if(num[j]%num[i]==0)
+                        num[j]=0;
+            }
+        }
+    }
+    for(i=1;i
+        if(num[i])
+    printf(" %d",num[i]);
+    return 0;
+}
