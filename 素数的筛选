@@ -16,7 +16,9 @@ int main(int argc, char* argv[])
                         num[j]=0;
             }
         }
+
     }
+    
     for(i=1;i
         if(num[i])
     printf(" %d",num[i]);
