@@ -2,13 +2,13 @@
  
 int main()
 {
-    int i,j,k;
+    int i,j,k,c;
     printf("\n");
     for(i=1;i<5;i++) { // 以下为三重循环
         for(j=1;j<5;j++) {
-            for (k=1;k<5;k++) { // 确保i、j、k三位互不相同
-                if (i!=k&&i!=j&&j!=k) { 
-                    printf("%d,%d,%d\n",i,j,k);
+            for (c=1;c<5;c++) { // 确保i、j、k三位互不相同
+                if (i!=c&&i!=j&&j!=c) { 
+                    printf("%d,%d,%d\n",i,j,c);
                 }
             }
         }
