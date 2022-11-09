@@ -29,7 +29,7 @@ int main()
 		
 	if (right < left)
 	{
-		printf("啦啦啦啦啦啦，我要冲突\n");
+		printf("我是老6\n");
 	}
 		return 0;
 }
