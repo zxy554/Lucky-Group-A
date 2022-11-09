@@ -1,9 +1,13 @@
 #include <stdio.h>
 
 int main() {
+<<<<<<< HEAD
    printf("Hello World!\n");
    printf("Hello World!\n");
    printf("Hello World!\n");
    printf("Hello World!\n");
    printf("Hello World!\n");
+=======
+   printf("耶斯莫拉666!\n");
+>>>>>>> e7db0eadf22debd442d5582e0be2eba40c8ab137
 }
