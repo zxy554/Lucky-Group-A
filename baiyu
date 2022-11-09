@@ -29,7 +29,7 @@ int main()
 		
 	if (right < left)
 	{
-		printf("啦啦啦啦啦\n");
+		printf("666666666\n");
 	}
 		return 0;
 }
