@@ -7,7 +7,8 @@ int main() {
 =======
    return 0;
 =======
-   printf("耶斯莫拉!\n");
+   printf("我是郭老师!\n");
+
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
 }
