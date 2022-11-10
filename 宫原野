@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 int main() {
-   printf("我不是刘玉珍\n");
+   printf("我不是宫原野\n");
 }
