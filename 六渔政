@@ -2,9 +2,13 @@
 
 int main() {
 <<<<<<< HEAD
+<<<<<<< HEAD
    printf("Hello World!\n");
    return 0;
 =======
    printf("刘豫州!\n");
 >>>>>>> origin/01yulan
+=======
+   printf("刘豫州!\n");
+>>>>>>> dev
 }
