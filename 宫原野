@@ -1,5 +1,6 @@
 #include <stdio.h>
 
 int main() {
-   printf("我不是宫原野\n");
+ printf("我不是刘豫州，我是宫原野's\n");
 }
+
