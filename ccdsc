@@ -6,7 +6,12 @@ int main(){
   while(a%b){
     int tmp = a%b;
     a = b;
+<<<<<<< HEAD
     c = tmp;
+=======
+    
+    b = tmp;
+>>>>>>> 05-赵欣宇
   }
   printf("the max common divisor is %d\n",b);
   return 0;
