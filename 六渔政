@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 int main() {
+<<<<<<< HEAD
    printf("Hello World!\n");
    return 0;
+=======
+   printf("刘豫州!\n");
+>>>>>>> origin/01yulan
 }
