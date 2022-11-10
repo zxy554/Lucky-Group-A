@@ -5,8 +5,8 @@ int main(){
   scanf("%d %d",&a,&b);
   while(a%b){
     int tmp = a%b;
-    b = a;
-    c= tmp;
+    a = b;
+    c = tmp;
   }
   printf("the max common divisor is %d\n",b);
   return 0;
