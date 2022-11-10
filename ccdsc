@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+  int a,b,c;
+  printf("please enter values:");
+  scanf("%d %d",&a,&b);
+  while(a%b){
+    int tmp = a%b;
+    a = b;
+    c = tmp;
+  }
+  printf("the max common divisor is %d\n",b);
+  return 0;
+}
