@@ -13,6 +13,7 @@ void Run()
  
 int main()
 {
+	int a;
 	auto beforeTime = std::chrono::steady_clock::now();
 	
 	Run();

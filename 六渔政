@@ -4,6 +4,7 @@ int main() {
 <<<<<<< HEAD
 <<<<<<< HEAD
    printf("Hello World!\n");
+<<<<<<< HEAD
    return 0;
 =======
    printf("刘豫州!\n");
@@ -11,4 +12,10 @@ int main() {
 =======
    printf("刘豫州!\n");
 >>>>>>> dev
+=======
+   printf("Hello World!\n");
+   printf("Hello World!\n");
+   printf("Hello World!\n");
+   printf("Hello World!\n");
+>>>>>>> origin/07宁一宁
 }
