@@ -2,13 +2,23 @@
  
 int main()
 {
-    int i,j,k;
+<<<<<<< HEAD
+    int i,j,k,c;
     printf("\n");
     for(i=1;i<5;i++) { // 以下为三重循环
         for(j=1;j<5;j++) {
-            for (k=1;k<5;k++) { // 确保i、j、k三位互不相同
-                if (i!=k&&i!=j&&j!=k) { 
+            for (c=1;c<5;c++) { // 确保i、j、k三位互不相同
+                if (i!=c&&i!=j&&j!=c) { 
+                    printf("%d,%d,%d\n",i,j,c);
+=======
+    int i,j,s;
+    printf("\n");
+    for(i=1;i<5;i++) { // 以下为三重循环
+        for(j=1;j<5;j++) {
+            for (s=1;s<5;s++) { // 确保i、j、k三位互不相同
+                if (i!=s&&i!=j&&j!=s) { 
                     printf("%d,%d,%d\n",i,j,k);
+>>>>>>> 69bb916c69b1240b33d0f29bbc8c80da96a63195
                 }
             }
         }
