@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-  int i;
+  int i，a;
   for(i=100;i<=200;i++){
       int j;
         for(j=2;j<i;j++){
